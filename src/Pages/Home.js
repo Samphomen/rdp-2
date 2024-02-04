@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from "../Components/Footer";
 import Navbar from '../Components/Navbar';
+import About from './About';
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
             difference in the lives of those we serve.
           </p>
         </section>
+        <About />
         <section className="reviews"></section>
       </div>
       <Footer />

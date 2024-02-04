@@ -2,6 +2,7 @@ import React from 'react'
 import {services} from "../Components/ServiceList"
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
+import Contact from './Contact'
 
 const Services = () => {
   return (
@@ -23,6 +24,7 @@ const Services = () => {
                 ))}
             </div>
         </section>
+        <Contact />
         <Footer />
     </div>
   )
